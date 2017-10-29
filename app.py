@@ -3,7 +3,7 @@ from chalice import Chalice
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
-app = Chalice(app_name='fiobot')
+app = Chalice(app_name='serverless-chatterbot')
 app.debug = True
 
 chatbot = ChatBot(
