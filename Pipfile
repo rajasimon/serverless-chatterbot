@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+"psycopg2" = "*"
+botocore = "*"
+ChatterBot = "*"
+
+
+[requires]
+
+python_version = "3.6"
