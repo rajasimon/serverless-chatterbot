@@ -9,5 +9,7 @@ Chalice can't deploy non wheel application to lambda yet. So we need to manually
 
 Also please make sure to add `DATABASE_URI` in environment variable `.chalice/config.json`
 
+You will see some error message when deploy but don't worry will raise ticket in `chalice` to remove those error message.
+
 
 
